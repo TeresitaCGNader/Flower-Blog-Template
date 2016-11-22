@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Teresita C. G. Nader">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="entries/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jquery-sakura.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <h1><a href="blog.html" title="Link to blog.html">Teresita's Blog</a></h1>
+  </div>
+
+  <div class="row">
+
+  <div class="col-3 col-m-3 menu">
+    <ul>
+      <li><a href="entries/codeBlog0.html">Code Blog 0</a></li>
+      <li><a href="entries/codeBlog1.html">Code Blog 1</a></li>
+      <li><a href="entries/codeBlog2.html">Code Blog 2</a></li>
+      <li><a href="entries/codeBlog3.html">Code Blog 3</a></li>
+      <li><a href="entries/codeBlog4.html">Code Blog 4</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-m-9">
+    <div class="currentEntry">
+      <h1>My Blog</h1>
+      <br></br>
+      <ul>
+        <li style="list-style-type:none"><font color="#F080F0"><b>Description</font></b></li>
+          <ul style="list-style-type:circle">
+          <li>On this blog I upload my progress in the class of Web Development (CS 290). Each of the Code Blogs contains questions related to each assignment I made for the class of Web Development (CS 290).</li>
+          </ul>
+        </li>
+        <br></br>
+        <li style="list-style-type:none"><font color="#F080F0"><b>Relevant Links</font></b></li>
+          <ul style="list-style-type:circle">
+            <li><a href="http://web.engr.oregonstate.edu/~hessro/teaching/cs290-f16/" style="text-decoration: none; color:white;" onmouseover="this.style.color='#806bff'" onmouseout="this.style.color='white'">Web Page CSS 290</a></li>
+            <li><a href="https://piazza.com/" style="text-decoration: none; color:white;" onmouseover="this.style.color='#806bff'" onmouseout="this.style.color='white'">Piazza</a></li>
+          </ul>
+        </li>
+      </ul>
+      <br></br>
+    </div>
+  </div>
+
+  <div class="col-3 col-m-12">
+    <div class="aside" title="Author's information">
+      <h2>Name:</h2>
+      <p>Teresita C. G. Nader</p>
+      <h2>Major:</h2>
+      <p>Computer Science</p>
+      <h2>University:</h2>
+      <p>OSU</p>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+  <div class="footer">
+    <span>&copy; Copyright &copy; 2016. <a href="index.html" title="Link to Index.html"> Teresita C. G. Nader</a> Blog for CS 290 at <a href="http://eecs.oregonstate.edu/" title="Link to OSU">OSU</a></span>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="entries/jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jquery-sakura.min.js"></script>
+  <script>
+  $(window).load(function () {
+  $('body').sakura();
+  });
+  </script>
+</body>
+</html>

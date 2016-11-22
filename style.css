@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+    color: white;
+    background: black;
+    background: url("images/flower.jpg"); /*Fix: blogcodes and index do not show background image*/
+	  background-position:center center;
+	  background-repeat:no-repeat;
+}
+html, body {
+  height: 100%;
+}
+.header {
+    font-family: sans-serif;
+	  background-position:center center;
+	  background-repeat:no-repeat;
+    color: #ffffff;
+    padding: 25px;
+}
+.header h1 a {
+  text-decoration: none;
+  color: #F080F0;
+}
+.header h1 a:hover {
+  color: #f0a9f0;
+}
+.currentEntry {
+  background: rgba(0, 0, 0, 0.56);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.currentEntry h1 {
+  text-align: center;
+  color: #ffffff
+}
+.currentEntry p {
+  padding: 15px;
+  color: #ffffff;
+  text-align: justify;
+  font-size: 14px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background: rgba(0, 0, 0, 0.56);
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: rgba(7, 1, 116, 0.82);
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu ul li.active a {
+  color: #F080F0;
+  font-weight: bold;
+}
+.aside {
+    background-color: #F080F0;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.wrapper {
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+.footer {
+    background: rgba(0, 0, 0, 0.56);
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 0.5em;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 4em;
+}
+
+.footer span {
+  text-align:center;
+	margin:0 0 65px 0;
+	font-family:"Trebuchet MS";
+	color:#ffffff;
+	display:block;
+	font-size:14px;
+}
+
+.footer span a {
+  font-family:"Trebuchet MS";
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.footer span a:hover {
+  font-family:"Trebuchet MS";
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 65%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 15%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 65%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
