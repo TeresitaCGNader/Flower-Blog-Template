@@ -15,7 +15,7 @@ html {
     font-family: "Lucida Sans", sans-serif;
     color: white;
     background: black;
-    background: url("images/flower.jpg"); /*Fix: blogcodes and index do not show background image*/
+    background: url("images/flower.jpg"); 
 	  background-position:center center;
 	  background-repeat:no-repeat;
 }
