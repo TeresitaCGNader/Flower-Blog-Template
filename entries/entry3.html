@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Teresita C. G. Nader">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link href="jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jquery-sakura.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <h1><a href="../blog.html" title="Link to blog.html">My Blog</a></h1>
+  </div>
+
+  <div class="row">
+
+    <div class="col-3 col-m-3 menu">
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="entry1.html">Entry 1</a></li>
+        <li><a href="entry2.html">Entry 2</a></li>
+        <li><a href="entry3.html">Entry 3</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-m-9">
+      <div class="currentEntry">
+        <h1>Entry 1<br><font size="2"> published on "date" by "name"</font></br></h1>
+        <ul>
+          <li><font color="#F080F0">Title</li></font>
+          <p><i>Some text here.</p></i>
+        </ul>
+      </div>
+    </div>
+
+  <div class="col-3 col-m-12">
+    <div class="aside" title="Author's information">
+      <h2>Name:</h2>
+      <p>Add your name here(or relevant info)</p>
+      <h2>Major:</h2>
+      <p>(Relevant information here)</p>
+      <h2>University:</h2>
+      <p>(Relevant information here)</p>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+  <div class="footer">
+    <span>&copy; Copyright &copy; 2016. <a href="https://github.com/TeresitaCGNader/Flower-Blog-Template.git" title="Link to source code"> Teresita C. G. Nader </a>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jQuery-Plugin-For-Sakura-Petals-Falling-Animation-Sakura/jquery-sakura.min.js"></script>
+  <script>
+  $(window).load(function () {
+  $('body').sakura();
+  });
+  </script>
+</body>
+</html>
